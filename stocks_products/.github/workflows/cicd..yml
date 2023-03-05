@@ -26,6 +26,7 @@ jobs:
       - name: Линтинг
         run: flake8 logistic/ --exclude=logistic/migrations/
 
+
       - name: Тесты
         run: python manage.py test
         env:
